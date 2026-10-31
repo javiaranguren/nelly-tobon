@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nelly Tobón · Peluquería, Estética y Micropigmentación en Gros, Donostia</title>
+<meta name="description" content="Micropigmentación de cejas, labios y delineado, extensiones de cabello natural, keratina vegana, manicura y estética en Calle Gloria 2, Gros (Donostia). 4,8 ★ en Google.">
+<meta property="og:title" content="Nelly Tobón · Peluquería y Estética · Donostia">
+<meta property="og:description" content="Belleza que realza tu esencia. Micropigmentación, peluquería, uñas y estética en Gros.">
+<meta property="og:image" content="https://nellytobon.es/media/equipo.jpg">
+<link rel="canonical" href="https://nellytobon.es/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="https://nellytobon.es/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BeautySalon","name":"Nelly Tobón · Peluquería y Estética","url":"https://nellytobon.es/","image":"https://nellytobon.es/media/equipo.jpg","telephone":"+34612570316","email":"nelly@nellytobon.es","priceRange":"€€",
+"address":{"@type":"PostalAddress","streetAddress":"Calle Gloria 2, bajo derecha","addressLocality":"Donostia / San Sebastián","postalCode":"20001","addressRegion":"Gipuzkoa","addressCountry":"ES"},
+"geo":{"@type":"GeoCoordinates","latitude":43.3226214,"longitude":-1.9721359},
+"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"10:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:00","closes":"16:00"}],
+"sameAs":["https://www.instagram.com/nellytobon_peluqueria/","https://www.facebook.com/Nellytobonmicropigmentacion"]}
+</script>
+<meta name="theme-color" content="#0D0C0A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230D0C0A'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='34' fill='%23D4B26E'%3ENT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Manrope:wght@400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="media/hero.jpg">
+<style>
+:root{
+  --noche:#0D0C0A; --noche-2:#171512; --noche-3:#221F1A;
+  --oro:#CDA75E; --oro-claro:#EED9A6; --oro-osc:#9A7638;
+  --crema:#F6F0E5; --lino:#ECE3D2; --tinta:#1B1814; --gris:#6F675B; --linea:#D9CDB7;
+  --verde:#2D4636; --rosa:#E8CFC3;
+  --display:"Gilda Display", Georgia, serif; --body:"Manrope", system-ui, sans-serif; --firma:"Pinyon Script", cursive;
+  --oro-grad:linear-gradient(100deg,#9A7638 0%,#E9D29C 28%,#C79E52 50%,#F3E3B8 70%,#A9843F 100%);
+  --pad:clamp(16px,5vw,64px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--crema);color:var(--tinta);font:400 16px/1.6 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
+:focus-visible{outline:2px solid var(--oro);outline-offset:3px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--pad)}
+.eyebrow{font:600 11.5px/1.2 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--oro-osc)}
+.dark .eyebrow{color:var(--oro)}
+h2{font:400 clamp(36px,5.2vw,68px)/1.02 var(--display);letter-spacing:-.01em}
+h2 em{font-style:normal;-webkit-box-decoration-break:clone;box-decoration-break:clone;background:var(--oro-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:clamp(16px,1.6vw,18.5px);color:var(--gris);max-width:56ch}
+.dark{background:var(--noche);color:var(--crema)}
+.dark .lead{color:#B9AE9C}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 24px;border-radius:999px;font:600 14.5px/1 var(--body);letter-spacing:.02em;transition:transform .25s,box-shadow .25s,background .25s}
+.btn svg{width:18px;height:18px}
+.btn-oro{background:var(--oro-grad);background-size:200% 100%;color:#1A140A;box-shadow:0 10px 30px -12px rgba(205,167,94,.7)}
+.btn-oro:hover{transform:translateY(-2px);background-position:100% 0}
+.btn-linea{border:1px solid rgba(238,217,166,.45);color:var(--oro-claro)}
+.btn-linea:hover{background:rgba(238,217,166,.1)}
+.btn-tinta{background:var(--tinta);color:var(--crema)}
+.btn-tinta:hover{transform:translateY(-2px)}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- NAV ---------- */
+.nav{position:fixed;inset:0 0 auto;z-index:50;transition:background .4s,backdrop-filter .4s,border-color .4s;border-bottom:1px solid transparent}
+.nav.solid{background:rgba(13,12,10,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:rgba(205,167,94,.18)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:74px;gap:20px}
+.marca{font:400 34px/1 var(--firma);background:var(--oro-grad);-webkit-background-clip:text;background-clip:text;color:transparent;padding:6px 6px 6px 0;white-space:nowrap}
+.nav ul{display:flex;gap:28px;list-style:none;color:#D9CFBF;font-size:14px;font-weight:500}
+.nav ul a{position:relative;padding:6px 0}
+.nav ul a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--oro);transform:scaleX(0);transition:transform .3s;transform-origin:left}
+.nav ul a:hover::after{transform:scaleX(1)}
+.nav .der{display:flex;align-items:center;gap:14px}
+.estado{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;color:#CFC4B2;white-space:nowrap}
+.estado i{width:8px;height:8px;border-radius:50%;background:#7a7a7a;box-shadow:0 0 0 0 rgba(122,214,140,.6)}
+.estado.abierto i{background:#7AD68C;animation:latido 2s infinite}
+@keyframes latido{70%{box-shadow:0 0 0 8px rgba(122,214,140,0)}100%{box-shadow:0 0 0 0 rgba(122,214,140,0)}}
+.nav .btn{padding:11px 18px;font-size:13.5px}
+.nav ul li{white-space:nowrap}
+@media(max-width:1120px){.nav ul{display:none}}
+@media(max-width:620px){.nav .estado{display:none}.marca{font-size:30px}}
+
+/* ---------- HERO ---------- */
+.hero{position:relative;min-height:100svh;background:radial-gradient(120% 80% at 75% 40%,#2a2318 0%,var(--noche) 55%);color:var(--crema);overflow:hidden;display:flex;align-items:center}
+#polvo{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,5vw,80px);align-items:center;padding-top:110px;padding-bottom:70px;width:100%}
+.hero .eyebrow{display:flex;align-items:center;gap:14px}
+.hero .eyebrow::before{content:"";width:38px;height:1px;background:var(--oro)}
+.firma{width:100%;max-width:640px;height:auto;margin:18px 0 6px;overflow:visible}
+.firma text{font-family:var(--firma);font-size:148px}
+.firma .trazo{fill:none;stroke:url(#gOro);stroke-width:1.2;stroke-dasharray:2200;stroke-dashoffset:2200}
+.firma .relleno{fill:url(#gOroMov);opacity:0}
+.firma.go .trazo{animation:trazo 2.6s cubic-bezier(.6,.1,.3,1) forwards}
+.firma.go .relleno{animation:aparece 1.4s 1.7s forwards}
+@keyframes trazo{to{stroke-dashoffset:0}}
+@keyframes aparece{to{opacity:1}}
+.hero h1{font:400 clamp(26px,3.1vw,40px)/1.18 var(--display);max-width:20ch;color:#F4EBDB}
+.hero h1 span{color:var(--oro-claro);font-style:italic}
+.hero p.lead{margin:18px 0 30px;color:#BDB19E}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero .datos{display:flex;flex-wrap:wrap;gap:22px 34px;margin-top:40px;padding-top:26px;border-top:1px solid rgba(205,167,94,.2);font-size:13.5px;color:#AFA390}
+.hero .datos b{display:block;font:400 26px/1.1 var(--display);color:var(--oro-claro);margin-bottom:2px}
+.arco{position:relative;justify-self:center;width:min(430px,100%);aspect-ratio:9/14}
+.arco .marco{position:absolute;inset:0;border-radius:999px 999px 14px 14px;overflow:hidden;background:#111 url(media/hero.jpg) center/cover;box-shadow:0 60px 120px -40px rgba(0,0,0,.9)}
+.arco video{width:100%;height:100%;object-fit:cover}
+.arco::before{content:"";position:absolute;inset:-16px -16px -16px -16px;border:1px solid rgba(205,167,94,.55);border-radius:999px 999px 22px 22px;pointer-events:none}
+.arco::after{content:"";position:absolute;inset:-32px;border:1px solid rgba(205,167,94,.16);border-radius:999px 999px 30px 30px;pointer-events:none}
+.arco .sello{position:absolute;left:-46px;bottom:12%;width:118px;height:118px;border-radius:50%;background:var(--noche);border:1px solid rgba(205,167,94,.5);display:grid;place-items:center;text-align:center;z-index:2}
+.arco .sello svg{position:absolute;inset:0;width:100%;height:100%;animation:gira 22s linear infinite}
+.arco .sello text{font:600 9.4px var(--body);letter-spacing:.28em;fill:var(--oro)}
+.arco .sello b{font:400 30px/1 var(--display);color:var(--oro-claro)}
+.arco .sello small{display:block;font-size:10px;color:#AFA390;letter-spacing:.1em;margin-top:3px}
+@keyframes gira{to{transform:rotate(360deg)}}
+.scroll-ind{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#8E8473;display:flex;flex-direction:column;align-items:center;gap:10px}
+.scroll-ind i{width:1px;height:40px;background:linear-gradient(var(--oro),transparent);animation:baja 2.2s infinite}
+@keyframes baja{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media(max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;padding-top:100px}
+  .arco{width:min(250px,62%);order:-1;margin-top:6px}
+  .hero .eyebrow{letter-spacing:.16em;font-size:10.5px}
+  .hero .wrap{gap:34px}
+  .retrato .nombre{right:2%}
+  .arco .sello{left:-26px;width:96px;height:96px}.arco .sello b{font-size:24px}
+  .firma text{font-size:150px}
+  .scroll-ind{display:none}
+}
+
+/* ---------- MARQUEE ---------- */
+.cinta{background:var(--noche-2);border-block:1px solid rgba(205,167,94,.22);overflow:hidden;padding:18px 0}
+.cinta .pista{display:flex;width:max-content;animation:cinta 38s linear infinite}
+.cinta span{font:400 clamp(20px,2.4vw,28px)/1 var(--display);color:#E8DCC6;padding:0 26px;white-space:nowrap;display:flex;align-items:center;gap:52px}
+.cinta span::after{content:"✦";font-size:13px;color:var(--oro)}
+@keyframes cinta{to{transform:translateX(-50%)}}
+
+/* ---------- NELLY ---------- */
+.nelly{padding:clamp(80px,11vw,150px) 0;position:relative;overflow:hidden}
+.nelly .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(30px,6vw,90px);align-items:center}
+.retrato{position:relative;max-width:440px;justify-self:center;width:100%}
+.retrato .arco-oro{position:absolute;inset:8% 6% 0;border-radius:999px 999px 0 0;background:radial-gradient(90% 70% at 50% 30%,#3a2f1d,var(--noche) 75%);overflow:hidden}
+.retrato .arco-oro::after{content:"";position:absolute;inset:14px 14px 0;border:1px solid rgba(205,167,94,.5);border-bottom:0;border-radius:999px 999px 0 0}
+.retrato img{position:relative;width:100%;height:auto;aspect-ratio:760/1250;object-fit:cover;object-position:top;filter:drop-shadow(0 30px 40px rgba(0,0,0,.3));
+  -webkit-mask-image:linear-gradient(to right,transparent 0,#000 16%),linear-gradient(to bottom,#000 78%,transparent 100%);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent 0,#000 16%),linear-gradient(to bottom,#000 78%,transparent 100%);mask-composite:intersect}
+.retrato .nombre{position:absolute;right:-6%;bottom:6%;font:400 clamp(44px,5vw,64px)/1 var(--firma);color:var(--oro-osc);transform:rotate(-6deg);text-shadow:0 2px 0 var(--crema)}
+.nelly h2{margin:14px 0 22px}
+.nelly .lead{margin-bottom:16px}
+.pilares{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--linea);border:1px solid var(--linea);margin:34px 0 30px}
+.pilares div{background:var(--crema);padding:20px 18px}
+.pilares b{display:block;font:400 34px/1 var(--display);color:var(--tinta)}
+.pilares b small{font-size:18px;color:var(--oro-osc)}
+.pilares span{font-size:13px;color:var(--gris);line-height:1.4;display:block;margin-top:6px}
+.cita-propia{font:400 clamp(21px,2.2vw,26px)/1.35 var(--display);border-left:2px solid var(--oro);padding-left:20px;color:var(--tinta)}
+.cita-propia small{display:block;font:500 12px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--gris);margin-top:10px}
+@media(max-width:900px){.nelly .wrap{grid-template-columns:1fr}.retrato{max-width:340px}}
+@media(max-width:520px){.pilares{grid-template-columns:1fr 1fr}.pilares div:last-child{grid-column:1/-1}}
+
+/* ---------- ESTUDIO DE MIRADA ---------- */
+.mirada{padding:clamp(80px,11vw,140px) 0;position:relative;overflow:hidden}
+.mirada::before{content:"";position:absolute;width:900px;height:900px;right:-300px;top:-200px;background:radial-gradient(circle,rgba(205,167,94,.12),transparent 60%);pointer-events:none}
+.mirada .cab{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:48px}
+.mirada .cab h2{margin-top:14px}
+@media(max-width:860px){.mirada .cab{grid-template-columns:1fr;gap:18px}}
+.estudio{display:grid;grid-template-columns:1.25fr .75fr;border:1px solid rgba(205,167,94,.28);background:var(--noche-2)}
+@media(max-width:960px){.estudio{grid-template-columns:1fr}.lienzo{min-height:min(440px,110vw)}}
+.lienzo{position:relative;background:#E2B697;overflow:hidden;min-height:340px}
+.lienzo svg{width:100%;height:100%;display:block}
+.lienzo .etq{position:absolute;left:18px;top:16px;font:600 11px var(--body);letter-spacing:.18em;text-transform:uppercase;color:rgba(40,25,15,.62);background:rgba(255,255,255,.45);backdrop-filter:blur(6px);padding:7px 11px;border-radius:999px}
+.lienzo .pluma{position:absolute;width:12px;height:12px;border-radius:50%;background:var(--oro-claro);box-shadow:0 0 18px 6px rgba(238,217,166,.8);opacity:0;pointer-events:none;transform:translate(-50%,-50%);transition:opacity .3s}
+.lienzo .pluma.on{opacity:1}
+.hair{stroke-linecap:round;fill:none;stroke-dasharray:var(--l);stroke-dashoffset:var(--l);animation:pelo .32s ease-out forwards;animation-delay:var(--d)}
+@keyframes pelo{to{stroke-dashoffset:0}}
+.polvo-ceja{opacity:0;animation:aparece 1.2s .1s forwards}
+@keyframes tenue{to{opacity:.22}}
+.mandos{padding:clamp(22px,3vw,34px);display:flex;flex-direction:column;gap:22px}
+.grupo>span{display:block;font:600 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:#A39886;margin-bottom:10px}
+.opciones{display:flex;flex-wrap:wrap;gap:8px}
+.opciones button{padding:10px 14px;border-radius:999px;border:1px solid rgba(238,217,166,.22);font-size:13.5px;color:#E3D8C5;transition:all .2s}
+.opciones button:hover{border-color:var(--oro)}
+.opciones button[aria-pressed=true]{background:var(--oro-grad);color:#1A140A;border-color:transparent;font-weight:600}
+.tonos{display:flex;gap:12px}
+.tonos button{width:38px;height:38px;border-radius:50%;background:var(--c);border:2px solid transparent;box-shadow:inset 0 0 0 2px var(--noche-2);transition:transform .2s}
+.tonos button[aria-pressed=true]{border-color:var(--oro);transform:scale(1.08)}
+.rango{width:100%;accent-color:var(--oro)}
+.rango-etq{display:flex;justify-content:space-between;font-size:12px;color:#8E8473;margin-top:4px}
+.presupuesto{margin-top:auto;border-top:1px solid rgba(205,167,94,.22);padding-top:20px}
+.presupuesto ul{list-style:none;font-size:14px;color:#CFC4B2;display:grid;gap:6px;margin-bottom:12px;min-height:22px}
+.presupuesto li{display:flex;justify-content:space-between;gap:10px}
+.presupuesto .total{display:flex;justify-content:space-between;align-items:baseline;font:400 30px/1 var(--display);color:var(--oro-claro);margin-bottom:6px}
+.presupuesto .total small{font:500 12px var(--body);letter-spacing:.14em;text-transform:uppercase;color:#A39886}
+.presupuesto p{font-size:12.5px;color:#8E8473;margin-bottom:16px}
+.presupuesto .btn{width:100%;justify-content:center}
+
+/* ---------- ANTES / DESPUÉS ---------- */
+.ad{padding:clamp(80px,11vw,140px) 0}
+.ad .cab{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:44px}
+.ad .cab h2{margin-top:14px}
+.ad-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,26px)}
+@media(max-width:900px){.ad-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.ad-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin:0 calc(var(--pad)*-1);padding:0 var(--pad) 10px;scrollbar-width:none}.ad-grid figure{flex:0 0 82%;scroll-snap-align:center}}
+.ad figure{position:relative}
+.comp{position:relative;aspect-ratio:3/4;overflow:hidden;border-radius:999px 999px 6px 6px;background:var(--lino);--p:50%;touch-action:pan-y;user-select:none}
+.comp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.comp .despues{clip-path:inset(0 0 0 var(--p))}
+.comp .linea{position:absolute;top:0;bottom:0;left:var(--p);width:2px;margin-left:-1px;background:var(--oro-claro);box-shadow:0 0 12px rgba(0,0,0,.3)}
+.comp .tirador{position:absolute;top:58%;left:var(--p);width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:var(--noche);border:1px solid var(--oro);display:grid;place-items:center;color:var(--oro-claro);box-shadow:0 8px 20px rgba(0,0,0,.35)}
+.comp .tirador svg{width:22px;height:22px}
+.comp input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.comp .t{position:absolute;bottom:14px;font:600 10.5px var(--body);letter-spacing:.2em;text-transform:uppercase;color:#fff;background:rgba(13,12,10,.55);backdrop-filter:blur(6px);padding:6px 10px;border-radius:999px}
+.comp .t.a{left:14px}.comp .t.d{right:14px}
+.ad figcaption{padding:18px 4px 0}
+.ad figcaption b{display:block;font:400 24px/1.15 var(--display)}
+.ad figcaption span{font-size:14px;color:var(--gris)}
+
+/* ---------- SERVICIOS ---------- */
+.servicios{padding:clamp(80px,11vw,140px) 0;background:var(--lino)}
+.servicios .cab{margin-bottom:40px;max-width:760px}
+.servicios .cab h2{margin:14px 0 16px}
+.pestanas{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:30px}
+.pestanas button{padding:12px 18px;border-radius:999px;border:1px solid var(--linea);font-size:14px;font-weight:600;color:var(--gris);background:var(--crema);transition:all .2s}
+.pestanas button[aria-selected=true]{background:var(--tinta);color:var(--crema);border-color:var(--tinta)}
+.carta{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(20px,4vw,60px);align-items:start}
+@media(max-width:900px){.carta{grid-template-columns:1fr}}
+.carta .foto{position:sticky;top:96px;aspect-ratio:4/5;overflow:hidden;border-radius:4px}
+.carta .foto img{width:100%;height:100%;object-fit:cover;transition:opacity .5s,transform 1.2s}
+.carta .foto img.cambia{opacity:0;transform:scale(1.04)}
+.carta .foto .pie{position:absolute;left:0;right:0;bottom:0;padding:60px 22px 20px;background:linear-gradient(transparent,rgba(13,12,10,.85));color:var(--crema)}
+.carta .foto .pie b{font:400 30px/1.1 var(--display);display:block}
+.carta .foto .pie span{font-size:14px;color:#D8CDB9}
+@media(max-width:900px){.carta .foto{position:relative;top:0;aspect-ratio:16/10}}
+.lista h3{font:400 30px/1.1 var(--display);margin-bottom:6px}
+.lista>p{color:var(--gris);font-size:15px;margin-bottom:22px;max-width:60ch}
+.fila{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:16px 4px;border-bottom:1px solid var(--linea);transition:background .2s}
+.fila:hover{background:rgba(255,255,255,.4)}
+.fila .chk{width:24px;height:24px;border-radius:50%;border:1.5px solid var(--linea);flex:none;display:grid;place-items:center;transition:all .2s}
+.fila .chk svg{width:13px;height:13px;opacity:0;color:#1A140A}
+.fila[aria-pressed=true] .chk{background:var(--oro-grad);border-color:transparent}
+.fila[aria-pressed=true] .chk svg{opacity:1}
+.fila .n{flex:1;font-size:15.5px;font-weight:500}
+.fila .n small{display:block;font-size:12.5px;color:var(--gris);font-weight:400}
+.fila .pts{flex:0 1 60px;border-bottom:1px dotted #B9AC92;margin-bottom:5px;align-self:flex-end}
+.fila .p{font:400 21px/1 var(--display);white-space:nowrap}
+.fila .p small{font:500 11px var(--body);color:var(--gris);letter-spacing:.06em;margin-right:4px}
+.nota-carta{font-size:13px;color:var(--gris);margin-top:16px}
+.cesta{position:fixed;left:50%;bottom:18px;transform:translate(-50%,140%);z-index:60;background:var(--noche);color:var(--crema);border:1px solid rgba(205,167,94,.4);border-radius:999px;padding:8px 8px 8px 22px;display:flex;align-items:center;gap:16px;box-shadow:0 20px 50px -10px rgba(0,0,0,.55);transition:transform .45s cubic-bezier(.2,.8,.2,1);max-width:calc(100% - 24px)}
+.cesta.on{transform:translate(-50%,0)}
+.cesta .txt{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cesta .txt b{color:var(--oro-claro);font:400 19px var(--display);margin-left:4px}
+.cesta .btn{padding:11px 16px;font-size:13.5px;flex:none}
+.cesta .x{width:34px;height:34px;border-radius:50%;color:#A39886;flex:none;font-size:20px;line-height:1}
+
+/* ---------- REELS ---------- */
+.reels{padding:clamp(80px,11vw,130px) 0}
+.reels .cab{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:36px}
+.reels .cab h2{margin-top:14px}
+.reels .cab a{color:var(--oro);font-weight:600;font-size:14px;border-bottom:1px solid currentColor;padding-bottom:2px}
+.carrusel{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(210px,1fr);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;scrollbar-width:thin;scrollbar-color:var(--oro-osc) transparent}
+.reel{position:relative;aspect-ratio:9/16;overflow:hidden;border-radius:14px;scroll-snap-align:start;background:#111;text-align:left}
+.reel img{width:100%;height:100%;object-fit:cover;transition:transform .8s}
+.reel:hover img{transform:scale(1.05)}
+.reel::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,.75))}
+.reel .play{position:absolute;top:14px;right:14px;width:40px;height:40px;border-radius:50%;background:rgba(13,12,10,.5);backdrop-filter:blur(6px);border:1px solid rgba(238,217,166,.5);display:grid;place-items:center;z-index:1;color:var(--oro-claro)}
+.reel .play svg{width:14px;height:14px;margin-left:2px}
+.reel b{position:absolute;left:16px;right:16px;bottom:16px;z-index:1;font:400 20px/1.15 var(--display);color:#fff}
+dialog.visor{margin:auto;border:0;background:transparent;max-width:min(420px,92vw);width:100%;overflow:visible}
+dialog.visor::backdrop{background:rgba(8,7,6,.88);backdrop-filter:blur(8px)}
+dialog.visor video{width:100%;max-height:86svh;border-radius:16px;background:#000;aspect-ratio:9/16;object-fit:contain}
+dialog.visor .cerrar{position:absolute;top:-14px;right:-14px;width:42px;height:42px;border-radius:50%;background:var(--crema);color:var(--tinta);font-size:22px;line-height:1;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+
+/* ---------- CASA ---------- */
+.casa{padding:clamp(80px,11vw,140px) 0;background:var(--crema)}
+.casa .wrap{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(14px,2vw,24px);align-items:center}
+.casa .t{grid-column:1/6}
+.casa .t h2{margin:14px 0 18px}
+.casa .f1{grid-column:6/10;aspect-ratio:3/4;overflow:hidden;border-radius:999px 999px 4px 4px}
+.casa .f2{grid-column:10/13;aspect-ratio:3/5;overflow:hidden;border-radius:4px;margin-top:120px}
+.casa img{width:100%;height:100%;object-fit:cover}
+.casa ul{list-style:none;display:grid;gap:12px;margin-top:24px}
+.casa li{display:flex;gap:12px;font-size:15px;color:var(--gris)}
+.casa li::before{content:"✦";color:var(--oro);font-size:12px;margin-top:4px}
+@media(max-width:900px){.casa .t{grid-column:1/-1}.casa .f1{grid-column:1/8}.casa .f2{grid-column:8/13;margin-top:60px}}
+
+/* ---------- OPINIONES ---------- */
+.opiniones{padding:clamp(80px,11vw,140px) 0;overflow:hidden}
+.opiniones .cab{display:grid;grid-template-columns:auto 1fr;gap:clamp(24px,5vw,70px);align-items:center;margin-bottom:50px}
+.nota{text-align:center;padding-right:clamp(24px,5vw,70px);border-right:1px solid rgba(205,167,94,.25)}
+.nota b{display:block;font:400 clamp(80px,10vw,120px)/.9 var(--display);background:var(--oro-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.nota .est{color:var(--oro);letter-spacing:4px;font-size:18px;margin:8px 0 4px}
+.nota span{font-size:13px;color:#A39886}
+@media(max-width:700px){.opiniones .cab{grid-template-columns:1fr}.nota{border:0;padding:0;text-align:left}}
+.resenas{display:flex;gap:18px;width:max-content;animation:cinta 70s linear infinite}
+.resenas:hover{animation-play-state:paused}
+.resena{width:min(360px,80vw);background:var(--noche-2);border:1px solid rgba(205,167,94,.18);padding:26px;display:flex;flex-direction:column;gap:16px}
+.resena .est{color:var(--oro);letter-spacing:3px;font-size:13px}
+.resena p{font:400 19px/1.45 var(--display);color:#EDE3D2;flex:1}
+.resena footer{font-size:13px;color:#A39886;display:flex;justify-content:space-between;gap:8px}
+.resena footer b{color:#D9CFBF;font-weight:600}
+@media (prefers-reduced-motion:reduce){.resenas{animation:none;flex-wrap:wrap;width:auto}}
+
+/* ---------- VISÍTANOS ---------- */
+.visita{padding:clamp(80px,11vw,140px) 0;background:var(--crema)}
+.visita .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,70px)}
+@media(max-width:900px){.visita .wrap{grid-template-columns:1fr}}
+.visita h2{margin:14px 0 20px}
+.direccion{font:400 24px/1.35 var(--display);margin-bottom:6px}
+.visita .barrio{color:var(--gris);margin-bottom:26px}
+.horario{list-style:none;border-top:1px solid var(--linea);margin-bottom:28px}
+.horario li{display:flex;justify-content:space-between;padding:12px 6px;border-bottom:1px solid var(--linea);font-size:15px}
+.horario li.hoy{background:var(--tinta);color:var(--crema);border-radius:4px;font-weight:600}
+.horario li.hoy span:last-child::after{content:" · hoy";color:var(--oro-claro);font-weight:500}
+.horario li .cerrado{color:var(--gris)}
+.horario li.hoy .cerrado{color:#A39886}
+.visita .ctas{display:flex;flex-wrap:wrap;gap:10px}
+.visita .btn-borde{border:1px solid var(--tinta)}
+.mapa{position:relative;min-height:420px;border-radius:999px 999px 6px 6px;overflow:hidden;background:var(--lino)}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(1) sepia(.25) contrast(1.05)}
+.mapa .fachada{position:absolute;right:16px;bottom:16px;width:38%;max-width:200px;aspect-ratio:1;border-radius:6px;overflow:hidden;border:4px solid var(--crema);box-shadow:0 14px 30px rgba(0,0,0,.25)}
+.mapa .fachada img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- PIE ---------- */
+footer.pie{background:var(--noche);color:#A39886;padding:70px 0 110px;font-size:14px}
+footer.pie .wrap{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:30px}
+footer.pie .marca{font-size:52px}
+footer.pie h4{font:600 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--oro);margin-bottom:14px}
+footer.pie a{display:block;padding:3px 0;color:#D9CFBF}
+footer.pie a:hover{color:var(--oro-claro)}
+footer.pie .legal{grid-column:1/-1;border-top:1px solid rgba(205,167,94,.15);padding-top:22px;margin-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12.5px}
+@media(max-width:760px){footer.pie .wrap{grid-template-columns:1fr}}
+
+.wa-flota{position:fixed;right:18px;bottom:18px;z-index:55;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;display:grid;place-items:center;box-shadow:0 12px 30px -6px rgba(0,0,0,.4);transition:transform .25s,opacity .3s}
+.wa-flota:hover{transform:scale(1.07)}
+.wa-flota svg{width:30px;height:30px}
+body.cesta-on .wa-flota{opacity:0;pointer-events:none}
+.demo-tag{position:fixed;left:14px;bottom:14px;z-index:40;font:600 10.5px var(--body);letter-spacing:.14em;text-transform:uppercase;color:#A39886;background:rgba(13,12,10,.75);backdrop-filter:blur(8px);border:1px solid rgba(205,167,94,.25);padding:7px 11px;border-radius:999px}
+@media(max-width:620px){.demo-tag{display:none}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#inicio" class="marca" aria-label="Nelly Tobón, inicio">Nelly Tobón</a>
+    <ul>
+      <li><a href="#nelly">Nelly</a></li>
+      <li><a href="#mirada">Micropigmentación</a></li>
+      <li><a href="#resultados">Resultados</a></li>
+      <li><a href="#servicios">Precios</a></li>
+      <li><a href="#visitanos">Visítanos</a></li>
+    </ul>
+    <div class="der">
+      <span class="estado" id="estadoNav"><i></i><span>Calculando horario…</span></span>
+      <a class="btn btn-oro" href="https://wa.me/34612570316?text=Hola%20Nelly!%20Quiero%20reservar%20una%20cita" target="_blank" rel="noopener">Reservar</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <canvas id="polvo" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Peluquería · Estética · Gros, Donostia</span>
+      <svg class="firma" id="firma" viewBox="0 0 900 230" role="img" aria-label="Nelly Tobón">
+        <defs>
+          <linearGradient id="gOro" x1="0" x2="1">
+            <stop offset="0" stop-color="#9A7638"/><stop offset=".35" stop-color="#F0DCA6"/><stop offset=".6" stop-color="#C79E52"/><stop offset="1" stop-color="#F3E3B8"/>
+          </linearGradient>
+          <linearGradient id="gOroMov" x1="-1" x2="0" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#A27D3C"/><stop offset=".4" stop-color="#D8B670"/><stop offset=".5" stop-color="#FFF4D2"/><stop offset=".6" stop-color="#D8B670"/><stop offset="1" stop-color="#A27D3C"/>
+            <animate attributeName="x1" values="-1;1" dur="5s" begin="3s" repeatCount="indefinite"/>
+            <animate attributeName="x2" values="0;2" dur="5s" begin="3s" repeatCount="indefinite"/>
+          </linearGradient>
+        </defs>
+        <text class="relleno" x="10" y="165">Nelly Tobón</text>
+        <text class="trazo" x="10" y="165">Nelly Tobón</text>
+      </svg>
+      <h1>Belleza que realza <span>tu esencia</span>.</h1>
+      <p class="lead">Micropigmentación de cejas, labios y mirada. Extensiones de cabello natural, keratina vegana, color y manicura. Todo en un mismo salón de Gros, con el trato de casa que repiten nuestras clientas.</p>
+      <div class="ctas">
+        <a class="btn btn-oro" href="https://wa.me/34612570316?text=Hola%20Nelly!%20Quiero%20reservar%20una%20cita" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.6-.1 1.1Z"/></svg>
+          Reservar por WhatsApp</a>
+        <a class="btn btn-linea" href="#mirada">Diseña tu mirada</a>
+      </div>
+      <div class="datos">
+        <div><b>4,8 ★</b>95 reseñas en Google</div>
+        <div><b>Gros</b>Calle Gloria 2, bajo</div>
+        <div><b>L–S</b>Lunes a sábado</div>
+      </div>
+    </div>
+    <div class="arco">
+      <div class="marco"><video src="media/hero.mp4" poster="media/hero.jpg" autoplay muted loop playsinline preload="auto" aria-label="Melena lisa y brillante en el salón Nelly Tobón"></video></div>
+      <div class="sello" aria-hidden="true">
+        <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs><text><textPath href="#circ">DONOSTIA · SAN SEBASTIÁN · GROS ·</textPath></text></svg>
+        <div><b>4,8</b><small>★ Google</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-ind"><i></i>Descubre</div>
+</section>
+
+<div class="cinta" aria-hidden="true"><div class="pista" id="pista">
+  <span>Micropigmentación de cejas</span><span>Extensiones de cabello natural</span><span>Keratina vegana sin formol</span><span>Balayage &amp; mechas</span><span>Delineado de ojos</span><span>Manicura &amp; PolyGel</span><span>Lifting de pestañas</span><span>Depilación láser</span><span>Carbón peeling</span>
+</div></div>
+
+<!-- NELLY -->
+<section class="nelly" id="nelly">
+  <div class="wrap">
+    <div class="retrato reveal">
+      <div class="arco-oro"></div>
+      <img src="media/nelly.webp" alt="Nelly Tobón sonriendo, con uniforme del salón" width="760" height="1636" loading="lazy">
+      <span class="nombre">Nelly</span>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">La firma de la casa</span>
+      <h2>Unas manos expertas en <em>micropigmentación</em>, un equipo para todo lo demás.</h2>
+      <p class="lead">Nelly se especializa en micropigmentación: cejas pelo a pelo o efecto maquillaje, labios y delineado. A su lado, un equipo de peluquería, manicura y estética para que salgas de Calle Gloria con todo hecho.</p>
+      <p class="lead">Cada tratamiento empieza escuchando: qué quieres, qué te favorece y qué necesita tu piel o tu cabello.</p>
+      <div class="pilares">
+        <div><b>4,8<small> ★</small></b><span>Nota media en Google</span></div>
+        <div><b>95</b><span>Reseñas de clientas</span></div>
+        <div><b>5</b><span>Especialidades bajo un mismo techo</span></div>
+      </div>
+      <blockquote class="cita-propia">«Se siente uno como en casa. Cada trabajo es hecho con amor y profesionalismo.»<small>Verónica M. · reseña en Google</small></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ESTUDIO DE MIRADA -->
+<section class="mirada dark" id="mirada">
+  <div class="wrap">
+    <div class="cab reveal">
+      <div><span class="eyebrow">Estudio de mirada · interactivo</span><h2>Diseña tu mirada <em>antes de venir</em>.</h2></div>
+      <p class="lead">Elige técnica, tono y grosor y mira cómo se dibuja, trazo a trazo. Al final verás el precio real de la carta y podrás mandárselo a Nelly para pedir tu valoración.</p>
+    </div>
+    <div class="estudio reveal">
+      <div class="lienzo" id="lienzo">
+        <svg id="ojo" viewBox="0 0 640 620" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Simulación de ceja y delineado"></svg>
+        <span class="etq" id="etqLienzo">Pelo a pelo · castaño</span>
+        <span class="pluma" id="pluma"></span>
+      </div>
+      <div class="mandos">
+        <div class="grupo"><span>Técnica de cejas</span>
+          <div class="opciones" data-k="tecnica">
+            <button type="button" data-v="antes" aria-pressed="false">Sin micropigmentar</button>
+            <button type="button" data-v="pelo" aria-pressed="true">Pelo a pelo</button>
+            <button type="button" data-v="polvo" aria-pressed="false">Efecto maquillaje</button>
+          </div>
+        </div>
+        <div class="grupo"><span>Tono</span>
+          <div class="tonos" data-k="tono">
+            <button type="button" data-v="rubio" style="--c:#9C7F5E" aria-label="Rubio ceniza" aria-pressed="false"></button>
+            <button type="button" data-v="castano" style="--c:#6B4A33" aria-label="Castaño" aria-pressed="true"></button>
+            <button type="button" data-v="chocolate" style="--c:#4A3022" aria-label="Chocolate" aria-pressed="false"></button>
+            <button type="button" data-v="oscuro" style="--c:#2E2420" aria-label="Castaño oscuro" aria-pressed="false"></button>
+          </div>
+        </div>
+        <div class="grupo"><span>Grosor</span>
+          <input class="rango" id="grosor" type="range" min="0" max="2" step="1" value="1" aria-label="Grosor de la ceja">
+          <div class="rango-etq"><span>Fina</span><span>Natural</span><span>Definida</span></div>
+        </div>
+        <div class="grupo"><span>Delineado</span>
+          <div class="opciones" data-k="delineado">
+            <button type="button" data-v="no" aria-pressed="true">Sin delineado</button>
+            <button type="button" data-v="sup" aria-pressed="false">Superior</button>
+            <button type="button" data-v="ambos" aria-pressed="false">Superior + inferior</button>
+          </div>
+        </div>
+        <div class="presupuesto">
+          <ul id="lineas"></ul>
+          <div class="total"><small>Total orientativo</small><span id="total">250 €</span></div>
+          <p>Precios de la carta del salón. El retoque, como máximo al mes, cuesta 150 €. Nelly valora tu caso antes de empezar.</p>
+          <a class="btn btn-oro" id="waMirada" href="#" target="_blank" rel="noopener">Enviar mi diseño a Nelly</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANTES / DESPUÉS -->
+<section class="ad" id="resultados">
+  <div class="wrap">
+    <div class="cab reveal">
+      <div><span class="eyebrow">Resultados reales del salón</span><h2>Desliza y <em>compara</em>.</h2></div>
+      <p class="lead">Imágenes de nuestros propios vídeos de Instagram, sin filtros de catálogo.</p>
+    </div>
+    <div class="ad-grid">
+      <figure class="reveal">
+        <div class="comp"><img src="media/ad-keratina-antes.jpg" alt="Antes: cabello encrespado" loading="lazy"><img class="despues" src="media/ad-keratina-despues.jpg" alt="Después: cabello liso y brillante tras la keratina" loading="lazy"><span class="linea"></span><span class="tirador"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></span><span class="t a">Antes</span><span class="t d">Después</span><input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después de la keratina"></div>
+        <figcaption><b>Keratina vegana sin formol</b><span>Menos frizz, más movimiento y un brillo increíble.</span></figcaption>
+      </figure>
+      <figure class="reveal">
+        <div class="comp"><img src="media/ad-mechas-antes.jpg" alt="Antes: melena oscura sin mechas" loading="lazy"><img class="despues" src="media/ad-mechas-despues.jpg" alt="Después: mechas en tono miel" loading="lazy"><span class="linea"></span><span class="tirador"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></span><span class="t a">Antes</span><span class="t d">Después</span><input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después de las mechas"></div>
+        <figcaption><b>Mechas en tono miel</b><span>Luz, calidez y brillo, justo el color que la clienta quería.</span></figcaption>
+      </figure>
+      <figure class="reveal">
+        <div class="comp"><img src="media/ad-ext-antes.jpg" alt="Antes: melena corta y fina" loading="lazy"><img class="despues" src="media/ad-ext-despues.jpg" alt="Después: melena larga con extensiones de cabello natural" loading="lazy"><span class="linea"></span><span class="tirador"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></span><span class="t a">Antes</span><span class="t d">Después</span><input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después de las extensiones"></div>
+        <figcaption><b>Extensiones de cabello natural</b><span>Tonos combinados para un efecto balayage sin decolorar tu pelo.</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="servicios" id="servicios">
+  <div class="wrap">
+    <div class="cab reveal">
+      <span class="eyebrow">Servicios y precios</span>
+      <h2>Prepara tu cita <em>en un minuto</em>.</h2>
+      <p class="lead">Toca los servicios que te interesan. Te sumamos el precio orientativo y lo enviamos por WhatsApp para que el equipo te dé hueco.</p>
+    </div>
+    <div class="pestanas" role="tablist" id="pestanas"></div>
+    <div class="carta">
+      <div class="foto"><img id="fotoCat" src="media/s-micro.jpg" alt=""><div class="pie"><b id="pieT"></b><span id="pieS"></span></div></div>
+      <div class="lista" id="lista" role="tabpanel"></div>
+    </div>
+  </div>
+</section>
+
+<!-- REELS -->
+<section class="reels dark" id="reels">
+  <div class="wrap">
+    <div class="cab reveal">
+      <div><span class="eyebrow">@nellytobon_peluqueria</span><h2>El salón, <em>en movimiento</em>.</h2></div>
+      <a href="https://www.instagram.com/nellytobon_peluqueria/" target="_blank" rel="noopener">Ver Instagram →</a>
+    </div>
+    <div class="carrusel reveal" id="carrusel"></div>
+  </div>
+</section>
+<dialog class="visor" id="visor"><button class="cerrar" type="button" aria-label="Cerrar vídeo" id="cerrarVisor">×</button><video id="vidVisor" controls playsinline></video></dialog>
+
+<!-- CASA -->
+<section class="casa">
+  <div class="wrap">
+    <div class="t reveal">
+      <span class="eyebrow">Calle Gloria 2 · Gros</span>
+      <h2>Como llegar <em>a casa</em>, pero saliendo guapísima.</h2>
+      <p class="lead">Es lo que más repiten las reseñas: el trato. Agua al llegar, consejos para mantener el resultado y un equipo que se nota que disfruta su trabajo.</p>
+      <ul>
+        <li>Productos de calidad y keratina vegana sin formol.</li>
+        <li>Peluquería, uñas, estética y micropigmentación sin cambiar de sitio.</li>
+        <li>En pleno barrio de Gros, a un paseo de la Zurriola.</li>
+      </ul>
+    </div>
+    <div class="f1 reveal"><img src="media/equipo.jpg" alt="Nelly Tobón con dos compañeras del salón" loading="lazy"></div>
+    <div class="f2 reveal"><img src="media/extensiones.jpg" alt="Clienta con extensiones de cabello natural en el salón" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- OPINIONES -->
+<section class="opiniones dark" id="opiniones">
+  <div class="wrap">
+    <div class="cab reveal">
+      <div class="nota"><b>4,8</b><div class="est">★★★★★</div><span>95 reseñas en Google</span></div>
+      <div><span class="eyebrow">Lo que dicen de nosotras</span><h2>Palabras de <em>clientas reales</em>.</h2></div>
+    </div>
+  </div>
+  <div class="resenas" id="resenas"></div>
+</section>
+
+<!-- VISÍTANOS -->
+<section class="visita" id="visitanos">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Visítanos</span>
+      <h2>Te esperamos <em>en Gros</em>.</h2>
+      <p class="direccion">Calle Gloria 2, bajo derecha<br>20001 Donostia · San Sebastián</p>
+      <p class="barrio" id="estadoTexto">Barrio de Gros</p>
+      <ul class="horario" id="horario"></ul>
+      <div class="ctas">
+        <a class="btn btn-tinta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Peluquer%C3%ADa%20y%20Est%C3%A9tica%20Nelly%20Tobon%2C%20Gloria%20Kalea%202%2C%2020001%20Donostia" target="_blank" rel="noopener">Cómo llegar</a>
+        <a class="btn btn-borde" href="tel:+34612570316">Llamar · 612 570 316</a>
+      </div>
+    </div>
+    <div class="mapa reveal">
+      <iframe title="Mapa: Peluquería y Estética Nelly Tobón" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Peluquer%C3%ADa%20y%20Est%C3%A9tica%20Nelly%20Tobon%2C%20Gloria%20Kalea%202%2C%20Donostia&amp;z=16&amp;output=embed"></iframe>
+      <div class="fachada"><img src="media/fachada.jpg" alt="Fachada del salón Nelly Tobón en Calle Gloria" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="pie">
+  <div class="wrap">
+    <div><span class="marca">Nelly Tobón</span><p style="margin-top:12px;max-width:34ch">Peluquería, estética y micropigmentación en el barrio de Gros. Ongi etorri.</p></div>
+    <div><h4>Contacto</h4><a href="https://wa.me/34612570316" target="_blank" rel="noopener">WhatsApp · 612 570 316</a><a href="tel:+34612570316">Llamar</a><a href="mailto:nelly@nellytobon.es">nelly@nellytobon.es</a></div>
+    <div><h4>Síguenos</h4><a href="https://www.instagram.com/nellytobon_peluqueria/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/Nellytobonmicropigmentacion" target="_blank" rel="noopener">Facebook</a></div>
+    <div class="legal"><span>© 2026 Nelly Tobón · Peluquería y Estética</span><span>Diseño web: <a href="https://syraagency.com" target="_blank" rel="noopener" style="display:inline;padding:0">Syra Agency</a></span></div>
+  </div>
+</footer>
+
+<a class="wa-flota" href="https://wa.me/34612570316?text=Hola%20Nelly!" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.6-.1 1.1Z"/></svg></a>
+<div class="cesta" id="cesta" role="status" aria-live="polite">
+  <span class="txt" id="cestaTxt"></span>
+  <a class="btn btn-oro" id="cestaWa" href="#" target="_blank" rel="noopener">Pedir cita</a>
+  <button class="x" type="button" id="cestaX" aria-label="Vaciar selección">×</button>
+</div>
+
+<script>
+const WA='34612570316';
+const wa=t=>`https://wa.me/${WA}?text=${encodeURIComponent(t)}`;
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- Nav y revelados ---------- */
+const nav=$('#nav');
+const onScroll=()=>nav.classList.toggle('solid',scrollY>40);
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+$$('.reveal').forEach(el=>io.observe(el));
+
+/* ---------- Firma ---------- */
+document.fonts.ready.then(()=>$('#firma').classList.add('go'));
+setTimeout(()=>$('#firma').classList.add('go'),2500);
+
+/* ---------- Polvo dorado ---------- */
+(()=>{
+  const c=$('#polvo'),x=c.getContext('2d');let w,h,ps=[],mx=0,my=0,dpr=Math.min(devicePixelRatio||1,2);
+  function size(){w=c.clientWidth;h=c.clientHeight;c.width=w*dpr;c.height=h*dpr;x.setTransform(dpr,0,0,dpr,0,0)}
+  function nueva(y){return{x:Math.random()*w,y:y??Math.random()*h,r:Math.random()*1.6+.3,v:Math.random()*.35+.08,f:Math.random()*Math.PI*2,a:Math.random()*.6+.2,d:Math.random()*.6+.2}}
+  size();const n=Math.round(Math.min(110,w/12));for(let i=0;i<n;i++)ps.push(nueva());
+  addEventListener('resize',size);
+  addEventListener('pointermove',e=>{mx=(e.clientX/innerWidth-.5);my=(e.clientY/innerHeight-.5)},{passive:true});
+  let vis=true;new IntersectionObserver(([e])=>vis=e.isIntersecting).observe(c);
+  function paso(t){
+    if(vis){x.clearRect(0,0,w,h);
+      for(const p of ps){p.y-=p.v;p.x+=Math.sin(t/1800+p.f)*.25;if(p.y<-5)Object.assign(p,nueva(h+5));
+        const tw=.55+.45*Math.sin(t/600+p.f*3);const px=p.x+mx*30*p.d,py=p.y+my*20*p.d;
+        const g=x.createRadialGradient(px,py,0,px,py,p.r*4);g.addColorStop(0,`rgba(244,224,170,${p.a*tw})`);g.addColorStop(1,'rgba(205,167,94,0)');
+        x.fillStyle=g;x.beginPath();x.arc(px,py,p.r*4,0,7);x.fill()}}
+    requestAnimationFrame(paso)}
+  if(!reduce)requestAnimationFrame(paso);
+})();
+
+/* ---------- Cinta: duplicar para bucle ---------- */
+$('#pista').innerHTML+= $('#pista').innerHTML;
+
+/* ---------- Horario y estado en directo (hora de Madrid) ---------- */
+const HORAS={1:[10,20],2:[10,20],3:[10,20],4:[10,20],5:[10,20],6:[10,16],0:null};
+const DIAS=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+function ahoraMadrid(){const p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());const g=k=>p.find(x=>x.type===k).value;return{d:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(g('weekday')),h:+g('hour')%24,m:+g('minute')}}
+function estado(){
+  const {d,h,m}=ahoraMadrid(),t=h+m/60,hoy=HORAS[d];let abierto=false,txt;
+  if(hoy&&t>=hoy[0]&&t<hoy[1]){abierto=true;txt=`Abierto · cierra a las ${hoy[1]}:00`}
+  else{let k=d,extra=0;if(hoy&&t<hoy[0]){txt=`Cerrado · abre hoy a las ${hoy[0]}:00`}else{do{k=(k+1)%7;extra++}while(!HORAS[k]);txt=`Cerrado · abre ${extra===1?'mañana':DIAS[k].toLowerCase()} a las ${HORAS[k][0]}:00`}}
+  const en=$('#estadoNav');en.classList.toggle('abierto',abierto);en.lastElementChild.textContent=txt;$('#estadoTexto').textContent=txt;
+  $('#horario').innerHTML=[1,2,3,4,5,6,0].map(i=>`<li class="${i===d?'hoy':''}"><span>${DIAS[i]}</span><span class="${HORAS[i]?'':'cerrado'}">${HORAS[i]?`${HORAS[i][0]}:00 – ${HORAS[i][1]}:00`:'Cerrado'}</span></li>`).join('');
+}
+estado();setInterval(estado,60000);
+
+/* ---------- Antes / después ---------- */
+$$('.comp').forEach(c=>{const r=c.querySelector('input');const f=()=>c.style.setProperty('--p',r.value+'%');r.addEventListener('input',f);f()});
+
+/* ---------- Estudio de mirada ---------- */
+const estudio={tecnica:'pelo',tono:'castano',grosor:1,delineado:'no'};
+const TONOS={rubio:['#8E7152','#B39573'],castano:['#5C3F2B','#7F5B40'],chocolate:['#3E281C','#5B3C2B'],oscuro:['#241B17','#3A2C25']};
+const NOMBRES={pelo:'Pelo a pelo',polvo:'Efecto maquillaje',antes:'Sin micropigmentar',rubio:'rubio ceniza',castano:'castaño',chocolate:'chocolate',oscuro:'castaño oscuro'};
+function rnd(seed){let s=seed;return()=>{s=(s*16807)%2147483647;return(s-1)/2147483646}}
+function ceja(t,W){ // centro y grosor de la ceja en el punto t (0 = cabeza, 1 = cola)
+  const x=150+340*t;
+  const c=t<.66?160-40*Math.sin((t/.66)*Math.PI/2):120+34*Math.pow((t-.66)/.34,1.25);
+  let k=t<.12?.78+t*1.8:t<.66?1:1-.78*Math.pow((t-.66)/.34,1.1);
+  return{x,top:c-W*k*.58,bot:c+W*k*.42,k};
+}
+function dibujar(){
+  const svg=$('#ojo'),{tecnica,tono,grosor,delineado}=estudio,[c1,c2]=TONOS[tono];
+  const W=[26,34,42][grosor];
+  let s=`<defs>
+    <radialGradient id="piel" cx="50%" cy="55%" r="75%"><stop offset="0" stop-color="#EECBB0"/><stop offset=".6" stop-color="#E2B697"/><stop offset="1" stop-color="#C9967A"/></radialGradient>
+    <radialGradient id="iris" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#C79A5B"/><stop offset=".45" stop-color="#7A5A2F"/><stop offset="1" stop-color="#2F2212"/></radialGradient>
+    <radialGradient id="esclera" cx="50%" cy="38%" r="65%"><stop offset="0" stop-color="#FBF6F1"/><stop offset=".7" stop-color="#EADDD4"/><stop offset="1" stop-color="#C9AFA3"/></radialGradient>
+    <radialGradient id="parpado" cx="50%" cy="100%" r="80%"><stop offset="0" stop-color="#B98169" stop-opacity=".55"/><stop offset="1" stop-color="#B98169" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gCeja" x1="0" x2="1"><stop offset="0" stop-color="${c2}" stop-opacity=".18"/><stop offset=".3" stop-color="${c2}" stop-opacity=".7"/><stop offset=".7" stop-color="${c1}" stop-opacity=".92"/><stop offset="1" stop-color="${c1}" stop-opacity=".95"/></linearGradient>
+    <filter id="suave"><feGaussianBlur stdDeviation="2.4"/></filter>
+    <filter id="grano"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 .45  0 0 0 0 .28  0 0 0 0 .2  0 0 0 .09 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+    <clipPath id="clipOjo"><path d="M215 268 Q300 205 455 252 Q330 315 215 268Z"/></clipPath>
+  </defs>
+  <rect width="640" height="620" fill="url(#piel)"/><rect width="640" height="620" filter="url(#grano)"/><g id="cara" transform="translate(0 110)">
+  <ellipse cx="335" cy="232" rx="150" ry="52" fill="url(#parpado)"/>
+  <path d="M222 250 Q320 186 452 236" fill="none" stroke="#A9705A" stroke-width="2" opacity=".45"/>`;
+  // ojo
+  s+=`<path d="M215 268 Q300 205 455 252 Q330 315 215 268Z" fill="url(#esclera)"/>
+  <g clip-path="url(#clipOjo)"><circle cx="330" cy="262" r="38" fill="url(#iris)"/><circle cx="330" cy="262" r="15" fill="#120C08"/><circle cx="342" cy="250" r="6" fill="#fff" opacity=".9"/><path d="M215 268 Q300 205 455 252" fill="none" stroke="#000" stroke-opacity=".25" stroke-width="14" filter="url(#suave)"/></g>
+  <path d="M215 268 Q300 205 455 252" fill="none" stroke="#2A1A12" stroke-width="2.6"/>
+  <path d="M215 268 Q330 315 455 252" fill="none" stroke="#7B4C3C" stroke-width="1.2" opacity=".6"/>`;
+  // pestañas
+  const r0=rnd(7);let pest='';
+  for(let i=0;i<52;i++){const t=.06+.92*i/51+(r0()-.5)*.01;const bx=(1-t)*(1-t)*215+2*(1-t)*t*300+t*t*455,by=(1-t)*(1-t)*268+2*(1-t)*t*205+t*t*252;
+    const L=9+17*Math.sin(Math.PI*Math.min(1,t*1.1))+r0()*6;const ang=-Math.PI/2-.55+t*1.1+(r0()-.5)*.22;const ex=bx+Math.cos(ang)*L,ey=by+Math.sin(ang)*L;
+    pest+=`<path d="M${bx.toFixed(1)} ${by.toFixed(1)} Q${(bx+ex)/2+4} ${(by+ey)/2+2} ${ex.toFixed(1)} ${ey.toFixed(1)}" stroke="#1d130e" stroke-width="${(1+r0()*.8).toFixed(2)}" fill="none" stroke-linecap="round" opacity="${(.75+r0()*.25).toFixed(2)}"/>`}
+  s+=pest;
+  // delineado
+  if(delineado!=='no'){
+    s+=`<path class="hair" style="--l:300;--d:.1s" d="M232 258 Q305 206 452 247 L486 222" stroke="#120c0a" stroke-width="5.2" stroke-linejoin="round"/>`;
+    s+=`<path d="M300 226 Q380 214 450 246 L486 222 L452 252 Z" fill="#120c0a" opacity="0" style="animation:aparece .5s .45s forwards"/>`;
+    if(delineado==='ambos')s+=`<path class="hair" style="--l:200;--d:.6s" d="M300 290 Q380 292 452 254" stroke="#2a1a14" stroke-width="2.2" opacity=".75"/>`;
+  }
+  // ceja
+  const rand=rnd(tono.length*31+grosor*7+(tecnica==='antes'?3:1));let pelos='',contorno=[],cont2=[];
+  for(let i=0;i<=40;i++){const p=ceja(i/40,W);contorno.push(`${p.x.toFixed(1)} ${p.top.toFixed(1)}`);cont2.unshift(`${p.x.toFixed(1)} ${p.bot.toFixed(1)}`)}
+  // vello natural de la clienta (siempre debajo)
+  const rb=rnd(99);let base='';
+  for(let i=0;i<110;i++){let t=rb();if(t>.8&&rb()<.55)t*=.85;const p=ceja(t,W*.8);const v=rb();const y=p.bot-(p.bot-p.top)*v,x=p.x;
+    const ang=(t<.14?-80:t<.66?-50+((t-.14)/.52)*35:-12+((t-.66)/.34)*24)*Math.PI/180;const L=7+rb()*9;
+    base+=`<path d="M${x.toFixed(1)} ${y.toFixed(1)} l${(Math.cos(ang)*L).toFixed(1)} ${(Math.sin(ang)*L).toFixed(1)}" stroke="#6E5442" stroke-opacity="${(.22+rb()*.25).toFixed(2)}" stroke-width=".8" stroke-linecap="round"/>`}
+  s+=base;
+  if(tecnica!=='antes'){
+    s+=`<path class="polvo-ceja" d="M${contorno.join(' L')} L${cont2.join(' L')} Z" fill="url(#gCeja)" filter="url(#suave)" style="opacity:0;animation-name:${tecnica==='polvo'?'aparece':'tenue'}"/>`;
+  }
+  const N=tecnica==='antes'?0:tecnica==='polvo'?80:[230,290,350][grosor];
+  const orden=[];
+  for(let i=0;i<N;i++){
+    let t=rand();if(tecnica==='antes'&&t>.78&&rand()<.6)t=t*.8;
+    const p=ceja(t,tecnica==='antes'?W*.82:W);const v=rand();const y=p.bot-(p.bot-p.top)*v,x=p.x+(rand()-.5)*6;
+    let ang;if(t<.14)ang=-82+v*10;else if(t<.66)ang=-58+((t-.14)/.52)*40+(v-.5)*12;else ang=-12+((t-.66)/.34)*26;
+    if(t>=.14&&v>.55&&t<.66)ang+=10; // fila superior más tumbada
+    const L=9+rand()*(W*.38)*(p.k*.6+.4);const a=ang*Math.PI/180;
+    const ex=x+Math.cos(a)*L,ey=y+Math.sin(a)*L;const cx=(x+ex)/2+Math.sin(a)*2.5,cy=(y+ey)/2-Math.cos(a)*1.2;
+    const col=rand()<.5?c1:c2;const op=tecnica==='antes'?.32+rand()*.3:tecnica==='polvo'?.35+rand()*.3:.62+rand()*.34;
+    const sw=tecnica==='antes'?.9+rand()*.5:1.05+rand()*.6;
+    orden.push({t,d:`M${x.toFixed(1)} ${y.toFixed(1)} Q${cx.toFixed(1)} ${cy.toFixed(1)} ${ex.toFixed(1)} ${ey.toFixed(1)}`,col,op,sw,L});
+  }
+  orden.sort((a,b)=>a.t-b.t);
+  const dur=reduce?0:1.6;
+  orden.forEach((h,i)=>{pelos+=`<path class="hair" style="--l:${Math.ceil(h.L+4)};--d:${(i/orden.length*dur).toFixed(3)}s" d="${h.d}" stroke="${h.col}" stroke-opacity="${h.op.toFixed(2)}" stroke-width="${h.sw.toFixed(2)}"/>`});
+  s+=pelos;
+  s+='</g>';
+  svg.innerHTML=s;
+  // pluma dorada que recorre la ceja
+  const pl=$('#pluma');if(!reduce&&tecnica!=='antes'){pl.classList.add('on');const t0=performance.now();const m=$('#cara').getScreenCTM(),caja=$('#lienzo').getBoundingClientRect(),pt=svg.createSVGPoint();
+    (function mv(n){const k=Math.min(1,(n-t0)/(dur*1000));const p=ceja(k,W);pt.x=p.x;pt.y=(p.top+p.bot)/2;const q=pt.matrixTransform(m);pl.style.left=(q.x-caja.left)+'px';pl.style.top=(q.y-caja.top)+'px';if(k<1)requestAnimationFrame(mv);else pl.classList.remove('on')})(t0)}
+  $('#etqLienzo').textContent=`${NOMBRES[tecnica]} · ${NOMBRES[tono]}`;
+  presupuesto();
+}
+function presupuesto(){
+  const {tecnica,tono,grosor,delineado}=estudio;const L=[];
+  if(tecnica!=='antes')L.push([`Cejas · ${NOMBRES[tecnica].toLowerCase()}`,250]);
+  if(delineado==='sup'||delineado==='ambos')L.push(['Delineado de ojos superior',200]);
+  if(delineado==='ambos')L.push(['Delineado de ojos inferior',150]);
+  $('#lineas').innerHTML=L.length?L.map(([n,p])=>`<li><span>${n}</span><span>${p} €</span></li>`).join(''):'<li><span>Así se ven tus cejas hoy. Elige una técnica.</span></li>';
+  const tot=L.reduce((a,b)=>a+b[1],0);$('#total').textContent=tot+' €';
+  const g=['fina','natural','definida'][grosor];
+  const txt=tecnica==='antes'&&delineado==='no'?'Hola Nelly! Estoy mirando la micropigmentación de cejas en vuestra web. ¿Me podéis dar cita para una valoración?':
+    `Hola Nelly! He diseñado mi mirada en vuestra web:\n· Cejas: ${tecnica==='antes'?'sin micropigmentar':NOMBRES[tecnica].toLowerCase()+', tono '+NOMBRES[tono]+', grosor '+g}\n· Delineado: ${{no:'sin delineado',sup:'superior',ambos:'superior + inferior'}[delineado]}\nTotal orientativo: ${tot} €. ¿Me dais cita para una valoración?`;
+  $('#waMirada').href=wa(txt);
+}
+$$('.mandos [data-k]').forEach(g=>g.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;g.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));estudio[g.dataset.k]=b.dataset.v;dibujar()}));
+$('#grosor').addEventListener('input',e=>{estudio.grosor=+e.target.value;dibujar()});
+let dibujado=false;new IntersectionObserver(([e])=>{if(e.isIntersecting&&!dibujado){dibujado=true;dibujar()}},{threshold:.35}).observe($('#lienzo'));
+setTimeout(()=>{if(!dibujado){dibujado=true;dibujar()}},6000);
+
+/* ---------- Carta de servicios (precios de nellytobon.es) ---------- */
+const CARTA=[
+ {id:'micro',t:'Micropigmentación',img:'media/s-micro.jpg',sub:'La especialidad de Nelly',desc:'Cejas que imitan el vello natural, labios con color y contorno definidos y delineados que duran. Siempre con valoración previa.',items:[
+   ['Micropigmentación de cejas',250,'Pelo a pelo o efecto maquillaje'],['Micropigmentación de labios / neutralización',250],['Delineado de ojos superior',200],['Delineado de ojos inferior',150],['Retoque',150,'Como máximo al mes de realizarla'],['Corrección de micropigmentación',350],['Remoción de cejas',null,'Precio según el caso']]},
+ {id:'cabello',t:'Cabello',img:'media/s-cabello.jpg',sub:'Color, extensiones y keratina',desc:'Corte, color, balayage y extensiones de cabello natural combinando tonos para dar luz sin decolorar. Keratina vegana sin formol.',items:[
+   ['Lavado y corte',40,null,true],['Lavado y peinado',40,null,true],['Hidratación capilar',30,null,true],['Keratina vegana sin formol',130,null,true],['Color base',60,null,true],['Balayage',150,null,true],['Extensiones de cabello natural',null,'Precio según largo y cantidad'],['Maquillaje para eventos',50,null,true],['Barbería · corte',20],['Barba',10]]},
+ {id:'unas',t:'Uñas',img:'media/s-unas.jpg',sub:'Manicura y pedicura',desc:'Desde un esmaltado clásico hasta PolyGel, SoftGel o acrílico con diseño. Mucho detalle y limpieza en cada uña.',items:[
+   ['Esmaltado tradicional · manicura',20],['Esmaltado tradicional · pedicura',25],['Semipermanente · manicura',20],['Semipermanente · pedicura',25],['Balanceado',40],['PolyGel',50],['SoftGel',30],['Acrílico',50],['Relleno',20],['Diseño por uña',2],['Retirada',10]]},
+ {id:'estetica',t:'Estética y láser',img:'media/s-estetica.jpg',sub:'Piel y depilación',desc:'Limpieza facial profunda, carbón peeling para una piel luminosa y depilación láser para ella y para él.',items:[
+   ['Limpieza facial',70,null,true],['Carbón peeling · 1 sesión',60,'De 60 a 90 €'],['Carbón peeling · 5 sesiones',150],['Láser · zona pequeña',20],['Láser · zona mediana',30],['Láser · zona grande',60],['Láser · cuerpo completo',250],['Extracción de verrugas y fibromas',30,'De 30 a 100 €']]},
+ {id:'mirada',t:'Pestañas y cejas',img:'media/s-mirada.jpg',sub:'Mirada sin agujas',desc:'Lifting de pestañas y laminado de cejas: mirada abierta y peinada durante semanas, sin maquillaje.',items:[
+   ['Lifting de pestañas',50],['Laminado de cejas',50]]}
+];
+const sel=new Map();let catActual=CARTA[0];
+$('#pestanas').innerHTML=CARTA.map((c,i)=>`<button role="tab" type="button" aria-selected="${i===0}" data-i="${i}">${c.t}</button>`).join('');
+function pintarCat(c){
+  catActual=c;const img=$('#fotoCat');img.classList.add('cambia');
+  setTimeout(()=>{img.src=c.img;img.alt=c.t;img.onload=()=>img.classList.remove('cambia');if(img.complete)img.classList.remove('cambia')},250);
+  $('#pieT').textContent=c.t;$('#pieS').textContent=c.sub;
+  $('#lista').innerHTML=`<h3>${c.t}</h3><p>${c.desc}</p>`+c.items.map(([n,p,nota,desde],i)=>{const k=c.id+i;return `<button type="button" class="fila" data-k="${k}" aria-pressed="${sel.has(k)}"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m5 12 5 5 9-10"/></svg></span><span class="n">${n}${nota?`<small>${nota}</small>`:''}</span><span class="pts"></span><span class="p">${p==null?'<small>consultar</small>':(desde?'<small>desde</small>':'')+p+' €'}</span></button>`}).join('')+`<p class="nota-carta">Precios orientativos de la carta del salón. El precio final se confirma al valorar tu caso.</p>`;
+}
+$('#pestanas').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;$$('#pestanas button').forEach(x=>x.setAttribute('aria-selected',x===b));pintarCat(CARTA[+b.dataset.i])});
+$('#lista').addEventListener('click',e=>{const b=e.target.closest('.fila');if(!b)return;const k=b.dataset.k;const c=CARTA.find(c=>k.startsWith(c.id)&&!isNaN(k.slice(c.id.length)));const it=c.items[+k.slice(c.id.length)];
+  if(sel.has(k))sel.delete(k);else sel.set(k,{n:it[0],p:it[1],desde:it[3]||it[2]?.startsWith('De ')});b.setAttribute('aria-pressed',sel.has(k));cesta()});
+function cesta(){
+  const n=sel.size,el=$('#cesta');el.classList.toggle('on',n>0);document.body.classList.toggle('cesta-on',n>0);if(!n)return;
+  const v=[...sel.values()],tot=v.reduce((a,b)=>a+(b.p||0),0),hayDesde=v.some(x=>x.desde||x.p==null);
+  $('#cestaTxt').innerHTML=`${n} servicio${n>1?'s':''} · ${hayDesde?'desde':''}<b>${tot} €</b>`;
+  $('#cestaWa').href=wa(`Hola Nelly! Me gustaría pedir cita para:\n${v.map(x=>`· ${x.n}${x.p!=null?` (${x.desde?'desde ':''}${x.p} €)`:''}`).join('\n')}\nTotal orientativo: ${hayDesde?'desde ':''}${tot} €. ¿Qué huecos tenéis?`);
+}
+$('#cestaX').onclick=()=>{sel.clear();$$('.fila').forEach(f=>f.setAttribute('aria-pressed','false'));cesta()};
+pintarCat(CARTA[0]);
+
+/* ---------- Reels ---------- */
+const REELS=[['Dem572TPp4z','Keratina sin formol'],['Dem-Ka7hGdT','Extensiones naturales'],['De7OGUdBwM9','Mechas tono miel'],['Dep7kl1CBPe','Un día en el salón'],['DewJlmuDsSN','Manicura con detalle'],['DeH2yTXgYnl','Conoce Nelly Tobón']];
+$('#carrusel').innerHTML=REELS.map(([id,t])=>`<button class="reel" type="button" data-id="${id}" aria-label="Ver vídeo: ${t}"><img src="media/reels/${id}.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8z"/></svg></span><b>${t}</b></button>`).join('');
+const visor=$('#visor'),vv=$('#vidVisor');
+$('#carrusel').addEventListener('click',e=>{const b=e.target.closest('.reel');if(!b)return;vv.src=`media/reels/${b.dataset.id}.mp4`;visor.showModal();vv.play().catch(()=>{})});
+const cerrar=()=>{vv.pause();visor.close()};$('#cerrarVisor').onclick=cerrar;visor.addEventListener('click',e=>{if(e.target===visor)cerrar()});visor.addEventListener('close',()=>vv.pause());
+
+/* ---------- Reseñas reales de Google ---------- */
+const RES=[
+ ['Lola G.','Magnífica atención, asesoramiento top y super bien de precios. Si buscas una peluquería donde entiendan lo que quieres hacerte, este es tu sitio.'],
+ ['Kylian S.','Espectacular mis cejas y nada de dolor. Encantada total.'],
+ ['Marijose C.','Un servicio estupendo, gran profesionalidad y dedicación. Se nota que les gusta mucho su trabajo y por eso los resultados son tan excepcionales.'],
+ ['Mayerly F.','Me encanta la limpieza que le hacen a mis uñas, cada detalle, cada consejo para mantenerlas lindas. Diseña de maravilla.'],
+ ['Xander E.','Me realicé la tricopigmentación y me quedó como yo quería. También el laminado de cejas: excelente resultado. Gracias Nelly.'],
+ ['Pam V.','Me encantó el trabajo que hicieron con mi cabello. Quedó suave, brilloso. Totalmente espectacular.'],
+ ['Claudia L.','Excelente lugar para sentirte como en casa: cálido, limpio, agradable, buen trato y excelentes profesionales.'],
+ ['Yasmina B.','Encantada de haber estado en manos de estos profesionales, tanto en peluquería como en estética. Un lugar al que ir con los ojos cerrados.']
+];
+const tarjetas=RES.map(([n,t])=>`<article class="resena"><span class="est">★★★★★</span><p>«${t}»</p><footer><b>${n}</b><span>Google</span></footer></article>`).join('');
+$('#resenas').innerHTML=tarjetas+tarjetas;
+
+</script>
+</body>
+</html>
