@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Manrope:wght@400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="media/hero.jpg">
+<link rel="preload" as="image" href="media/hero-equipo.jpg">
 <style>
 :root{
   --noche:#0D0C0A; --noche-2:#171512; --noche-3:#221F1A;
@@ -101,8 +101,9 @@ h2 em{font-style:normal;-webkit-box-decoration-break:clone;box-decoration-break:
 .hero .datos{display:flex;flex-wrap:wrap;gap:22px 34px;margin-top:40px;padding-top:26px;border-top:1px solid rgba(205,167,94,.2);font-size:13.5px;color:#AFA390}
 .hero .datos b{display:block;font:400 26px/1.1 var(--display);color:var(--oro-claro);margin-bottom:2px}
 .arco{position:relative;justify-self:center;width:min(430px,100%);aspect-ratio:9/14}
-.arco .marco{position:absolute;inset:0;border-radius:999px 999px 14px 14px;overflow:hidden;background:#111 url(media/hero.jpg) center/cover;box-shadow:0 60px 120px -40px rgba(0,0,0,.9)}
-.arco video{width:100%;height:100%;object-fit:cover}
+.arco .marco{position:absolute;inset:0;border-radius:999px 999px 14px 14px;overflow:hidden;background:#111;box-shadow:0 60px 120px -40px rgba(0,0,0,.9)}
+.arco .marco img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;transform-origin:45% 30%;animation:acerca 22s ease-in-out infinite alternate}
+@keyframes acerca{from{transform:scale(1)}to{transform:scale(1.09)}}
 .arco::before{content:"";position:absolute;inset:-16px -16px -16px -16px;border:1px solid rgba(205,167,94,.55);border-radius:999px 999px 22px 22px;pointer-events:none}
 .arco::after{content:"";position:absolute;inset:-32px;border:1px solid rgba(205,167,94,.16);border-radius:999px 999px 30px 30px;pointer-events:none}
 .arco .sello{position:absolute;left:-46px;bottom:12%;width:118px;height:118px;border-radius:50%;background:var(--noche);border:1px solid rgba(205,167,94,.5);display:grid;place-items:center;text-align:center;z-index:2}
@@ -390,7 +391,7 @@ body.cesta-on .wa-flota{opacity:0;pointer-events:none}
       </div>
     </div>
     <div class="arco">
-      <div class="marco"><video src="media/hero.mp4" poster="media/hero.jpg" autoplay muted loop playsinline preload="auto" aria-label="Melena lisa y brillante en el salón Nelly Tobón"></video></div>
+      <div class="marco"><img src="media/hero-equipo.jpg" alt="Nelly Tobón con dos compañeras de su equipo en el salón" width="900" height="1400" fetchpriority="high"></div>
       <div class="sello" aria-hidden="true">
         <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs><text><textPath href="#circ">DONOSTIA · SAN SEBASTIÁN · GROS ·</textPath></text></svg>
         <div><b>4,8</b><small>★ Google</small></div>
@@ -543,7 +544,7 @@ body.cesta-on .wa-flota{opacity:0;pointer-events:none}
         <li>En pleno barrio de Gros, a un paseo de la Zurriola.</li>
       </ul>
     </div>
-    <div class="f1 reveal"><img src="media/equipo.jpg" alt="Nelly Tobón con dos compañeras del salón" loading="lazy"></div>
+    <div class="f1 reveal"><img src="media/s-cabello.jpg" alt="Nelly colocando extensiones de cabello natural a una clienta" loading="lazy"></div>
     <div class="f2 reveal"><img src="media/extensiones.jpg" alt="Clienta con extensiones de cabello natural en el salón" loading="lazy"></div>
   </div>
 </section>
@@ -754,7 +755,7 @@ setTimeout(()=>{if(!dibujado){dibujado=true;dibujar()}},6000);
 const CARTA=[
  {id:'micro',t:'Micropigmentación',img:'media/s-micro.jpg',sub:'La especialidad de Nelly',desc:'Cejas que imitan el vello natural, labios con color y contorno definidos y delineados que duran. Siempre con valoración previa.',items:[
    ['Micropigmentación de cejas',250,'Pelo a pelo o efecto maquillaje'],['Micropigmentación de labios / neutralización',250],['Delineado de ojos superior',200],['Delineado de ojos inferior',150],['Retoque',150,'Como máximo al mes de realizarla'],['Corrección de micropigmentación',350],['Remoción de cejas',null,'Precio según el caso']]},
- {id:'cabello',t:'Cabello',img:'media/s-cabello.jpg',sub:'Color, extensiones y keratina',desc:'Corte, color, balayage y extensiones de cabello natural combinando tonos para dar luz sin decolorar. Keratina vegana sin formol.',items:[
+ {id:'cabello',t:'Cabello',img:'media/s-cabello-2.jpg',sub:'Color, extensiones y keratina',desc:'Corte, color, balayage y extensiones de cabello natural combinando tonos para dar luz sin decolorar. Keratina vegana sin formol.',items:[
    ['Lavado y corte',40,null,true],['Lavado y peinado',40,null,true],['Hidratación capilar',30,null,true],['Keratina vegana sin formol',130,null,true],['Color base',60,null,true],['Balayage',150,null,true],['Extensiones de cabello natural',null,'Precio según largo y cantidad'],['Maquillaje para eventos',50,null,true],['Barbería · corte',20],['Barba',10]]},
  {id:'unas',t:'Uñas',img:'media/s-unas.jpg',sub:'Manicura y pedicura',desc:'Desde un esmaltado clásico hasta PolyGel, SoftGel o acrílico con diseño. Mucho detalle y limpieza en cada uña.',items:[
    ['Esmaltado tradicional · manicura',20],['Esmaltado tradicional · pedicura',25],['Semipermanente · manicura',20],['Semipermanente · pedicura',25],['Balanceado',40],['PolyGel',50],['SoftGel',30],['Acrílico',50],['Relleno',20],['Diseño por uña',2],['Retirada',10]]},
